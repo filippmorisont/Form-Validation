@@ -50,3 +50,21 @@ function showMessage(element, msg, color) {
   element.style.color = color;
   element.previousElementSibling.style.border = `2px solid ${color}`;
 }
+function showMessage(element, msg, color) {
+  element.style.visibility = "visible";
+  element.textContent = msg;
+  element.style.color = color;
+  element.previousElementSibling.style.border = `2px solid ${color}`;
+}
+function showMessage(element, msg, color) {
+  element.style.visibility = "visible";
+  element.textContent = msg;
+  element.style.color = color;
+  element.previousElementSibling.style.border = `2px solid ${color}`;
+}
+function showMessage(element, msg, color) {
+  element.style.visibility = "visible";
+  element.textContent = msg;
+  element.style.color = color;
+  element.previousElementSibling.style.border = `2px solid ${color}`;
+}
